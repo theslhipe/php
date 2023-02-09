@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form method="get">
+        <input type="search">
+        <button>Buscar</button>
+        <hr>
+
+        Nome:
+        <input type="text" name="fNome" placeholder="Digite seu nome" maxlength="10" size="30">
+        <br>
+
+        Senha:
+        <input type="password" name="fSenha" placeholder="8 digitos" maxlength="8" size="30">
+        <br>
+
+        Idade
+        <input type="number" nome="Fidade" min="18" max="130" placeholder="18-130">
+        <br><br>
+
+        Sexo:<br>
+        <input type="radio" name="FSexo" value="M">
+        Femenino
+        <input type="radio" name="FSexo" value="F" checked>
+        Masculino
+        <br><br>
+
+        Data de nascimento:
+        <input type="date" nome="Fnascimento">
+        <br><br>
+
+        Estado:
+        <select name="fEstado" multiple size="4">
+            <optgroup label="Região sul">
+                <option value="PR">PARANA</option>
+                <option value="SC">SANTA CATARINA</option>
+                <option value="RS">RIO GRANDE DO SUL</option>
+            </optgroup>
+        </select>
+        <br></br>
+
+        <input type="checkbox" name="fAcordo" checked value="ativado">li e estou de acordo!
+        <br><br>
+        <input type="submit" value="Submeter">
+    </form>
+</body>
+
+</html>
